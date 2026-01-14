@@ -1,6 +1,7 @@
 {
   "name": "agent-playground",
   "private": true,
+  "packageManager": "bun@1.3.6",
   "workspaces": ["applications/*"],
   "scripts": {
     "dev": "turbo dev",
