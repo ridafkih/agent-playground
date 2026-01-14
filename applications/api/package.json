@@ -1,0 +1,11 @@
+{
+  "name": "@playground/api",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "bun --hot src/index.ts",
+    "build": "bun build src/index.ts --outdir dist --target bun"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.14"
+  }
+}

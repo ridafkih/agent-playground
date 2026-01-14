@@ -1,0 +1,13 @@
+{
+  "name": "agent-playground",
+  "private": true,
+  "workspaces": ["applications/*"],
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build"
+  },
+  "devDependencies": {
+    "turbo": "^2.3.3",
+    "typescript": "^5.7.2"
+  }
+}
